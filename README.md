@@ -13,6 +13,7 @@ Mein Image wurde mit folgenden Parametern erstellt
 
 ##  Das Image von jock
 https://users.armbian.com/jock/rk3318/
+
 Download:
 https://users.armbian.com/jock/rk3318/Armbian_22.05.0-trunk_Rk3318-box_bullseye_current_5.15.35_minimal.img.xz
 
