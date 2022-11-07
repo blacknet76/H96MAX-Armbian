@@ -26,7 +26,7 @@ https://users.armbian.com/jock/rk3318/multitool.img.xz
 ## Wlan Treiber für den 2734C Chip
 ```
 cd ~
-wget https://raw.githubusercontent.com/blacknet76/H96MAX-Armbian/main/brcmfmac4334-sdio.rockchip%2Crk3318-box.txt.txt
+wget https://raw.githubusercontent.com/blacknet76/H96MAX-Armbian/main/brcmfmac4334-sdio.rockchip%2Crk3318-box.txt
 sudo cp /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.bak
 sudo cp brcmfmac4334-sdio.rockchip,rk3318-box.txt /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt
 sudo chmod 444 /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt
