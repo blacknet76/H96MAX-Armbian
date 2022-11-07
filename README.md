@@ -43,4 +43,4 @@ IP Abfragen
 ip a
 ```
 
-Reboot und schauen ob alles Funktioniert
+Reboot und schauen ob alles funktioniert
