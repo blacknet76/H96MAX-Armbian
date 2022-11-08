@@ -31,7 +31,11 @@ cd ~
 wget https://raw.githubusercontent.com/blacknet76/H96MAX-Armbian/main/brcmfmac4334-sdio.rockchip%2Crk3318-box.txt
 sudo cp /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.bak
 sudo cp brcmfmac4334-sdio.rockchip,rk3318-box.txt /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt
-sudo chmod 444 /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt
+```
+
+Jetzt verhindern wir noch das die Datei vom Update Manager überschrieben wird
+```
+sudo chattr -i /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt
 ```
 
 Anschließend das Wlan Konfigurieren mit
