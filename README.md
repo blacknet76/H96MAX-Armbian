@@ -3,7 +3,7 @@
 Das ist ein Armbian Debian Bullseye Image für die H96 MAX TV Box.
 
 Installations Video
-https://youtu.be/YQrjgiebDYQ
+https://youtu.be/uuOujI-yfYU
 
 ## Mein selbst erstelltes Image
 Download:
