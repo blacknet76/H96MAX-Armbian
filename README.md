@@ -63,6 +63,11 @@ Rechner neu starten
 reboot
 ```
 
+Kennwort ändern
+```
+passwd
+```
+
 Wlan Konfigurieren
 ```
 nmtui
@@ -101,12 +106,6 @@ IP Abfragen
 ```
 ip a
 ```
-
-Kennwort ändern
-```
-passwd
-```
-
 Box neu starten
 ```
 sudo reboot
