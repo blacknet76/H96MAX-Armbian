@@ -89,7 +89,7 @@ sudo cp brcmfmac4334-sdio.rockchip,rk3318-box.txt /lib/firmware/brcm/brcmfmac433
 
 Jetzt verhindern wir noch das die Datei vom Update Manager überschrieben wird
 ```
-sudo chattr -i /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt
+sudo chattr +i /lib/firmware/brcm/brcmfmac4334-sdio.rockchip,rk3318-box.txt
 ```
 
 Rechner neu starten
